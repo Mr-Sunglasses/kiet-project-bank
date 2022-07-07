@@ -1,0 +1,38 @@
+{
+  "name": "first-contributions",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://firstcontributions.github.io/",
+  "devDependencies": {
+    "enzyme": "^3.0.0",
+    "gh-pages": "^3.1.0",
+    "react-scripts": "^4.0.3",
+    "react-test-renderer": "^15.0.0",
+    "sw-precache": "^5.2.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.19",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-select": "^1.0.0-rc.10"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build && sw-precache --config=sw-precache-config.js",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "deploy": "npm run build&&gh-pages -b master -d build"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
