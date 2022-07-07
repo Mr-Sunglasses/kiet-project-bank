@@ -6,6 +6,8 @@ class LinkButton extends Component {
   render() {
     return (
       <div className="LinkButton-Wrapper">
+                  <img src="https://yt3.ggpht.com/ytc/AKedOLT0VVKk9ygwBeGsZy6BOtuKupISZrJjVjdLj4JPkA=s900-c-k-c0x00ffffff-no-rj" alt="" srcset="" width={360} height={350}/>
+
         <a
           className="LinkButton"
           href="https://github.com/firstcontributions/first-contributions/blob/master/README.md"

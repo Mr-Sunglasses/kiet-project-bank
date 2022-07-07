@@ -10,7 +10,7 @@ const App = () => {
     <div className="App">
         <Navbar />
         <div className="App-header">
-            <h1>Make your first open source contribution in 5 minutes</h1>
+            <h1>Welcome to Kiet Project Bank, Get Started with Choosing a Project to Contribute.</h1>
         </div>
         <LinkButton />
         <CardsContainer />
