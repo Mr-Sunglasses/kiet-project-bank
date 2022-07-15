@@ -13,3 +13,5 @@ You can find the most recent version of this guide [here](https://github.com/fac
 yarn
 yarn start
 ```
+
+Will launch on 22 July 2022
