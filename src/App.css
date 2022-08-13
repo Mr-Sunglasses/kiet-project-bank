@@ -8,11 +8,11 @@
 }
 
 .App-header {
-  padding: 20px;
+  padding: 10px;
   color: white;
 }
 
 .App-header > h1 {
-  padding-top: 10%;
+  padding-top: 5%;
   font-size: 2.5em;
 }
