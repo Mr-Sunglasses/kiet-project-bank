@@ -10,7 +10,7 @@ class LinkButton extends Component {
 
         <a
           className="LinkButton"
-          href="https://github.com/firstcontributions/first-contributions/blob/master/README.md"
+          href="https://github.com/Mr-Sunglasses/kiet-project-bank/blob/master/README.md"
         >
           <span> Get started </span>
         </a>
