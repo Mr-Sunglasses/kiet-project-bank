@@ -14,4 +14,4 @@ yarn
 yarn start
 ```
 
-Will launch on 22 July 2022
+[![Contributors](https://contrib.rocks/image?repo=Mr-Sunglasses/kiet-project-bank)](https://github.com/Mr-Sunglasses/kiet-project-bank/graphs/contributors)
