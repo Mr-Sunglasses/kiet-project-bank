@@ -1,7 +1,7 @@
 import React from 'react';
 import { Icon, IconPaths } from './icons.js';
 
-const twitterLink = ""
+const twitterLink = "https://twitter.com/fosscuk"
 
 const TwitterCard = () => (
     <a className="icon-card twitter" href={twitterLink} rel="noopener noreferrer" target="_blank">
