@@ -10,7 +10,7 @@ const App = () => {
     <div className="App">
         <Navbar />
         <div className="App-header">
-            <h1>Welcome to Kiet Project Bank! </h1>
+            <h1>Welcome to KIET Project Bank! </h1>
             
         </div>
         <div className='App-header'>
