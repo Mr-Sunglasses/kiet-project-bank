@@ -1,4 +1,4 @@
-This project is exculsively created for the students of KIET Group of Institutions.
+This project is exculsively created for the students of KIET Group of Institutions. Students can upload their projects and contribute on existing project in this project bank.
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
