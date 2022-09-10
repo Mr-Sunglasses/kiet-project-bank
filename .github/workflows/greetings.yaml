@@ -1,13 +1,47 @@
-name: Greetings
+# name: Greetings
 
-on: [pull_request_target, issues]
+# on: [pull_request_target, issues]
+
+# jobs:
+#   greeting:
+#     runs-on: ubuntu-latest
+#     steps:
+#     - uses: actions/first-interaction@v1
+#       with:
+#         repo-token: ${{ secrets.GITHUB_TOKEN }}
+#         issue-message: 'Thank you 🙏🏻 for submitting your first issue to Kiet Project Bank by @FOSS-Community'
+#         pr-message: 'Thank you 🙏🏻 for contributing to Kiet Project Bank by @FOSS-Community'
+ 
+name: CI
+on: [push, pull_request]
 
 jobs:
-  greeting:
+  test:
+    name: Lint and test
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/first-interaction@v1
+    - name: Check out code
+      uses: actions/checkout@v2
+
+    - name: Setup nodejs
+      uses: actions/setup-node@v2
       with:
-        repo-token: ${{ secrets.GITHUB_TOKEN }}
-        issue-message: 'Thank you 🙏🏻 for submitting your first issue to Kiet Project Bank by @FOSS-Community'
-        pr-message: 'Thank you 🙏🏻 for contributing to Kiet Project Bank by @FOSS-Community'
+        node-version: '18'
+
+    - name: Install dependencies
+      run: npm ci
+
+    - name: Check style with prettier
+      run: npm run format-check
+
+    - name: Run tests
+      run: npm test
+
+    - name: Compare the expected and actual dist/ directories
+      run: |
+        npm run build
+        if [ "$(git diff --ignore-blank-lines --ignore-space-at-eol dist/ | wc -l)" -gt "0" ]; then
+          echo "Detected uncommitted changes after build.  See status below:"
+          git diff
+          exit 1
+        fi
