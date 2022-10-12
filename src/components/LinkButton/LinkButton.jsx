@@ -14,6 +14,12 @@ class LinkButton extends Component {
         >
           <span> Get started </span>
         </a>
+        <a
+          className="LinkButton"
+          href="https://kietprojectbank-opensource.netlify.app/"
+        >
+          <span> Open-Source Projects </span>
+        </a>
         <div className="Scroll-Down-Wrapper">
           <img className="Scroll-Down" onClick={() => { window.scrollBy({ top: window.innerHeight - 80, left: 0, behavior: "smooth" }); }} src={scrollDown} alt="Scroll Down!" width="64" height="64" />
         </div>
