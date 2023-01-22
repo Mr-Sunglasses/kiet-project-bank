@@ -193,7 +193,7 @@ const projectList = [
       imageSrc: "https://www.deccanherald.com/sites/dh/files/styles/article_detail/public/articleimages/2021/07/29/istock-1146555316-1-1014244-1627560943.jpg?itok=u5Pmb6Sz" ,
       description: "Development of a deep Convolutional Neural Network (CNN) for Tropical Cyclone intensity estimation using half-hourly INSAT-3D IR Images and development of a web application for visualization of the imagery. INSAT3D/3DR observations are available at every 15-minute interval and these observations are very useful in understanding the instantaneous structural changes during evolution, intensification, and landfall of Tropical Cyclones. Datasets of Cyclones captured by INSAT-3D over the Indian Oceans are available since 2014. These datasets can be used for training and testing of the Model. Traditional methods for Intensity estimation require accurate center determination for intensity estimation. Development of CNN based model for intensity estimation will be very useful during the initial stage of cyclone formation when determination of accurate center becomes difficul" ,
       tags: ["AI","CNN"] 
-   }
+   },
     
     
 ];
