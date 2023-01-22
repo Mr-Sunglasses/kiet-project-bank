@@ -112,7 +112,7 @@ const projectList = [
     },
     {
       name: "Recommendation System for Future Skills" ,
-      imageSrc="https://mma.prnewswire.com/media/1042546/Computer_Magazine_Cover.jpg?p=publish&w=950",
+      imageSrc: "https://mma.prnewswire.com/media/1042546/Computer_Magazine_Cover.jpg?p=publish&w=950",
       description: "Due to the changing technology and its requirement for getting employed in India and abroad, there has to improvements suggested by experts for predicting the Prediction of Admission & Jobs in Engineering & Technology /Management/Pharmacy with respect to his/her strength, age, location and similar important factors.",
       tags: ["Intermediate"]
     },
