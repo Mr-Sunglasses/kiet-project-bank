@@ -179,15 +179,84 @@ const projectList = [
       description: "Virtual Assistant for Medical Device",
       tags: ["Intermediate"]
     },
-    
-    
-  
-    
-  
-  
-    
-    
-  
+  {
+      name: "Software toolset for storage browsing and permission based access to geospatial data using blockchain " ,
+      imageSrc: "https://miro.medium.com/max/720/1*09cmT2U79wyqH9VgFNxFDw.webp" ,
+      description: " Ever-growing geospatial data requires secure and scalable storage for archiving data. Block chain-based technologies can offer strong byzantine fault tolerance and distributed data storage and access. However currently there are no mature options for storing and organizing large geospatial datasets on a distributed blockchain" ,
+      tags: ["Intermediate "] 
+   },
+   {
+      name: "Software for easing government procurements" ,
+      imageSrc: "https://www.americadailypost.com/wp-content/uploads/2021/07/procurement.jpg" ,
+      description: "There is a requirement of software(Mobile/Web App) for Govt procurements which lists various items with specifications, rates, warranty and compare them and decide the best option., like one available for car insurance etc. This may avoid calling tenders, deciding L1 etc. This may also brought, transparency and parity in rates of items procured by different Govt organisations." ,
+      tags: ["Intermediate"] 
+   },
+   {
+      name: "Smart Document Capture Platform" ,
+      imageSrc: "https://smartdocuments.com/wp-content/uploads/2019/07/SDLogoColored.png" ,
+      description: "You have to design a document capture system sans the scanner, which will integrate the Smartphone of the Operator with the Web-based Enrolment application of the UIDAI. The Smartphone will image the document and share it with the portal for subsequent pre-processing. Pre-processing on the document includes brightness/contrast correction, contour detection, and alignment correction and it would be handled in the web portal. The document captured through the Smartphone must not be stored in the local Phone memory for privacy purposes. The interaction between the Web portal and the Smartphone can be based on any industry-standard protocol or interface. For the solution demonstration purpose, the participating team can create a Website to perform pre-processing. As part of the hackathon, you are expected to deliver following:- Portal using any JavaScript-based technology to capture the document through a Smartphone. Integration of the Smartphone with the Portal. Necessary android app to interface with the portal and perform imaging of the document. Pre-processing of the document using the web portal. Pre-processing scope enumerated above. A dummy server-side API to upload the document." ,
+      tags: ["Inttermediate"] 
+   },
+   {
+      name: "Tracking, reducing and reusing of plastic waste" ,
+      imageSrc: "https://blog.mygov.in/wp-content/uploads/2019/09/Thumbnail-Image.jpg" ,
+      description: "We need a solution that highlights the bulk waste generators of the plastic waste and propose solutions and solution providers in the nearby areas. This would help to effectively and efficiently tackle the issue of plastic pollution on our land and sea and boost immediate action at national and local level in India and beyond. " ,
+      tags: ["Data-Analysis"] 
+   },
+   {
+      name: "Conversational Chatbot Builder - Smarter Virtual Assistants with Domain specific AI" ,
+      imageSrc: "https://www.sendinblue.com/wp-content/uploads/2022/06/what_is_chatbot_fb.png" ,
+      description: "A conversational chatbot builder to enable no-code template based chatbot for troubleshooting questions, trainings, problem diagnostics. Ability for adapting chatbot of multi-domains will ensure the value for all Social innovation programs Expanding this by using BERT based models to make it more natural feeling like while conversing. Context specific BERT models can add value for healthcare, education based applications" ,
+      tags: ["AI","Intermediate"] 
+   },
+   {
+      name: "Digital Access Code generation and use for Address tracking" ,
+      imageSrc: "https://akm-img-a-in.tosshub.com/lingo/atbn/images/photo_gallery/202110/digitaladdress_2.jpg" ,
+      description: "Assignment of Digital Address Code (DAC) comprising geo-coordinates of the house (Latitude/Longitude) will ease the process of locating addresses for delivery of government services and other purposes.team should design and implement most efficient design, creation and use of the DAC for purposes mentioned above Teams need to take care of speed, accuracy, storage complexity, security, flexibility of the DAC, Exclusion of sensitive locations etc" ,
+      tags: ["Advanced"] 
+   },
+   {
+      name: "Linking Smart cameras with alarm systems to avoid triggering a false alarm by birds or animals or vibrations due to wind, loud sounds, etc." ,
+      imageSrc: "https://m.media-amazon.com/images/I/51B9BRaTJqL._AC_SY580_.jpg" ,
+      description: "The aim of the Problem Statement is to create a smart alarm system to avaoid trigerring a flase alarm." ,
+      tags: ["Intermediate"] 
+   },
+   {
+      name: "Design a system for multi hazard visualization as perlocation selected by Individual " ,
+      imageSrc: "https://cdn.downtoearth.org.in/library/large/2019-09-12/0.80168200_1568290445_id-twitter.jpg" ,
+      description: "Each and every region is affected with natural calamities, disasters etc. Region wise repository and visualization is needed such that if a person selects a particular area, he is able to know what kind of disasters, calamities etc. that region is prone to, for helping in selection of a type of house to be built and with the necessary precautions" ,
+      tags: ["Easy"] 
+   },
+   {
+      name: "Analysis for noise identification in largeand complex data collected from different sources and rectifying them." ,
+      imageSrc: "https://www.embedded.com/wp-content/uploads/media-1313531-pini-oscilloscope-statistics-fig1.png" ,
+      description: "Data at ground level is captured for variousschemes across multiple parameters/indicators. This data is large and consists of physical, financial, beneficiary, geographical details etc. under various schemes year on year. Sincedifferent programs have different methods ofdata collection, many a times it has beenobserved that data is not consistent, consists oferroneous entries etc. A solution is requiredwhich is able to identify types of noise in datacollected and also highlight usage/proposeimplementation of best practices/latesttechnological interventions followed for datacollection and making data entry rectifications" ,
+      tags: ["Exploratory-Data-Analysis"] 
+   },
+   {
+      name: "IoT enabled risk monitoring svstem in Cold Suppll Chain" ,
+      imageSrc: "https://www.zunroof.com/blog/wp-content/uploads/2020/05/Zunroof_RMS.png" ,
+      description: "Monitoring temperature, humidity and other gas compositions in cold storagc are in built and automated in large cornmercial premises. However, monitoring the real time location, temperature and other parameteE need a cost effective system which may be integrated by GPS, remote sensors, cloud computing and big data." ,
+      tags: ["IOT"] 
+   },
+   {
+      name: "Virtual Laboratory for Science subjects at school level" ,
+      imageSrc: "https://d3.harvard.edu/platform-digit/wp-content/uploads/sites/2/2017/04/labster1-1024x667.jpg" ,
+      description: "This project aims to create a platform using various technologies like AR/VR, Deep learning in order to give cheap and efficient solutions to schools to teach practical subjects" ,
+      tags: ["AR/VR","Deep-Learning"] 
+   },
+   {
+      name: "Sustainable and No Contact Attendance system" ,
+      imageSrc: "https://www.engineerica.com/wp-content/uploads/2020/05/VirtualAttendance.png" ,
+      description: "The need for the system is an untouchable device. And also students can't cheat with the system. Devise a secure way to take attendance of students and teachers in a touchless and paperless manner in order to have a sustainable way. This project aims to provide a touchless and paperless attendance system" ,
+      tags: ["Hardware","AI"] 
+   },
+   {
+      name: "Deep Learning based Cyclone Intensity estimation using INSAT-3D IR imagery" ,
+      imageSrc: "https://www.deccanherald.com/sites/dh/files/styles/article_detail/public/articleimages/2021/07/29/istock-1146555316-1-1014244-1627560943.jpg?itok=u5Pmb6Sz" ,
+      description: "Development of a deep Convolutional Neural Network (CNN) for Tropical Cyclone intensity estimation using half-hourly INSAT-3D IR Images and development of a web application for visualization of the imagery. INSAT3D/3DR observations are available at every 15-minute interval and these observations are very useful in understanding the instantaneous structural changes during evolution, intensification, and landfall of Tropical Cyclones. Datasets of Cyclones captured by INSAT-3D over the Indian Oceans are available since 2014. These datasets can be used for training and testing of the Model. Traditional methods for Intensity estimation require accurate center determination for intensity estimation. Development of CNN based model for intensity estimation will be very useful during the initial stage of cyclone formation when determination of accurate center becomes difficul" ,
+      tags: ["AI","CNN"] 
+   },
   
 ];
 export default projectList;
