@@ -23,6 +23,7 @@
     "eject": "react-scripts eject",
     "deploy": "npm run build&&gh-pages -b master -d build"
   },
+
   "browserslist": {
     "production": [
       ">0.2%",
