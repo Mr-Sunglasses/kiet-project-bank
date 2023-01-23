@@ -276,10 +276,10 @@ const projectList = [
     tags:["Web development","App Development"]
   },
   {
-    name:"",
-    imgSrc:"https://pub.mdpi-res.com/foods/foods-10-00429/article_deploy/html/images/foods-10-00429-ag.png?1614157769",
+    name:"Food For All",
+    imgSrc:"https://www.parentmap.com/images/article/7332/FOOD_FOR_ALL_collage_on_white_1000x1033.jpg",
     description:"Food For All - software based innovation to solve the Hunger Crisis in India ",
-    tags:""
+    tags:["Web development","App Development"]
   },
   {
     name:"",
@@ -288,16 +288,16 @@ const projectList = [
     tags:""
   },
   {
-    name:"",
-    imgSrc:"",
+    name:"Admission & Jobs in Engineering & Technology ",
+    imgSrc:"https://uploads.sarvgyan.com/2016/04/engineer.jpg",
     description:"Prediction of Admission & Jobs in Engineering & Technology with respect to demographic locations",
-    tags:""
+    tags:["AI","CNN"] 
   },
   {
-    name:"",
-    imgSrc:"",
-    description:"The application will include a questionnaire regarding the quality and quantity of sources ofwater available in the respective area. The application will thus enable the farmers (who arethe basic data providers) to easily enter this data about every farmland in their local language.The farmers will be given the facility to update the irrigation details about their farmlands time to time. The farmers will be verified through online Aadhar card number authentication. The data hence collected can be further analysed through a web application which will facilitate the Irrigation Department and other Water Management Authorities in identifying the areas needing immediate irrigation help to ensure harkhetkopani.",
-    tags:""
+    name:"Source of water",
+    imgSrc:"https://image.slidesharecdn.com/sourcesofwater-161224165153/85/sources-of-water-5-320.jpg?cb=1665830713",
+    description:"The application will include a questionnaire regarding the quality and quantity of sources of water available in the respective area. The application will thus enable the farmers (who arethe basic data providers) to easily enter this data about every farmland in their local language.The farmers will be given the facility to update the irrigation details about their farmlands time to time. The farmers will be verified through online Aadhar card number authentication. The data hence collected can be further analysed through a web application which will facilitate the Irrigation Department and other Water Management Authorities in identifying the areas needing immediate irrigation help to ensure harkhetkopani.",
+    tags:["AI","CNN","Web development","App Development"] 
   },
   {
     name:"",
@@ -342,10 +342,10 @@ const projectList = [
     tags:""
   },
   {
-    name:"",
-    imgSrc:"",
+    name:"Job opportunities portal",
+    imgSrc:"https://imgk.timesnownews.com/story/GettyImages_jobs_cut_job_3.jpg?tr=w-600,h-450,fo-auto",
     description:"Our idea is to give a better platform i.e. an APP and WEBSITE with govt. schemes ,facilities and job opportunities for the women of INDIA. Our basic APP linked with the website such that common women with basic knowledge of computer and android can operate it. Our APP promotes the women skill enhancement and awareness by providing interview tips, bank transaction basics ,etc. so as to make them independent. Our App and Website contains fully verified details which gets updated frequently. The App and Website contain various government jobs information available for women and one can apply for those jobs through website itself. ",
-    tags:""
+    tags:["Web development","App Development"]
   },
 ];
 export default projectList;
