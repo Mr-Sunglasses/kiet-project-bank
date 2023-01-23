@@ -257,7 +257,96 @@ const projectList = [
       description: "Development of a deep Convolutional Neural Network (CNN) for Tropical Cyclone intensity estimation using half-hourly INSAT-3D IR Images and development of a web application for visualization of the imagery. INSAT3D/3DR observations are available at every 15-minute interval and these observations are very useful in understanding the instantaneous structural changes during evolution, intensification, and landfall of Tropical Cyclones. Datasets of Cyclones captured by INSAT-3D over the Indian Oceans are available since 2014. These datasets can be used for training and testing of the Model. Traditional methods for Intensity estimation require accurate center determination for intensity estimation. Development of CNN based model for intensity estimation will be very useful during the initial stage of cyclone formation when determination of accurate center becomes difficul" ,
       tags: ["AI","CNN"] 
    },
-  
+  {
+    name:"USB file transaction",
+    imgSrc:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4l9qcC1KiCvPsW3BL1RVkILV_P7SDLIVblQ&usqp=CAU",
+    description:"To develop a software which enables secure USB file transactions in and around an Intranet or Internet, using USB whitelisting and strong cryptographic primitives and protocols. The tool encompasses standard media access control policies and guidelines and also features data recovery mechanisms at faulty situations.",
+    tags:""
+  },
+  {
+    name:"Sampling of Food",
+    imgSrc:"https://pub.mdpi-res.com/foods/foods-10-00429/article_deploy/html/images/foods-10-00429-ag.png?1614157769",
+    description:"Automated analysis of food quality using random sampling and computation algorithm",
+    tags:["AI"]
+  },
+  {
+    name:"Doctor tribal easy interpretation",
+    imgSrc:"https://hips.hearstapps.com/hmg-prod/images/types-of-doctors-1600114658.jpg",
+    description:"Application will contain videos of highly qualified doctors dubbed in tribal languages for easy interpretation by people. The videos will focus on providing home remedies rather than providing the chemical treatment. The basic objective of this application is to provide medical facilities to tribal people in the language they prefer so as to make their communication with application easy. If the user will input symptoms from available list, they will get the possible results for disease in their local language. This includes speech recognition for easy input facility .Application will give the contact details of nearby available doctors and pharmacy",
+    tags:["Web development","App Development"]
+  },
+  {
+    name:"",
+    imgSrc:"https://pub.mdpi-res.com/foods/foods-10-00429/article_deploy/html/images/foods-10-00429-ag.png?1614157769",
+    description:"Food For All - software based innovation to solve the Hunger Crisis in India ",
+    tags:""
+  },
+  {
+    name:"",
+    imgSrc:"",
+    description:"Creating a platform that tracks and measures the impact created from all the start-ups recognized by DIPP and others as well.",
+    tags:""
+  },
+  {
+    name:"",
+    imgSrc:"",
+    description:"Prediction of Admission & Jobs in Engineering & Technology with respect to demographic locations",
+    tags:""
+  },
+  {
+    name:"",
+    imgSrc:"",
+    description:"The application will include a questionnaire regarding the quality and quantity of sources ofwater available in the respective area. The application will thus enable the farmers (who arethe basic data providers) to easily enter this data about every farmland in their local language.The farmers will be given the facility to update the irrigation details about their farmlands time to time. The farmers will be verified through online Aadhar card number authentication. The data hence collected can be further analysed through a web application which will facilitate the Irrigation Department and other Water Management Authorities in identifying the areas needing immediate irrigation help to ensure harkhetkopani.",
+    tags:""
+  },
+  {
+    name:"",
+    imgSrc:"",
+    description:"The project provides a solution for detecting anomalies in current ship trajectory in maritime traffic based on clustering results of historical data. The proposed method decides for each trajectory point if the vessel is anomalous, considering longitude, latitude, speed and direction.It can detect anomalous navigational behaviors based on the mentioned parameters. The idea is to generate arbitrary shapes of moving patterns and stopping areas. If the anomaly ratio exceeds the threshold values the system will notify the authorities concerned and will also assist in navigating the ship back to the usual trajectory",
+    tags:""
+  },
+  {
+    name:"",
+    imgSrc:"",
+    description:"To create an UI that will make both the Government Organisation and the Entrepreneurship to meet and share their ideas",
+    tags:""
+  },
+  {
+    name:"",
+    imgSrc:"",
+    description:"To develop the mobile application, the parents of the students of the scheduled tribes categorywould get to know about the education facilities that available exclusively for the scheduled tribes and about the scholarships. As education is the rightway to change the world the lack of awareness about the educational facilities hinder them from continuing the education further. In order to serve this very purpose the tribal education awareness app (TEA) is being developed which contains all the information about the nearby schools, vacancy of Quota seats, hostel facilities, scholarship available, exclusive schemes by government etc.",
+    tags:""
+  },
+  {
+    name:"",
+    imgSrc:"",
+    description:"It is a web application itself written in PHP and can be used to test remote, or local, web applications for security vulnerabilities. As a scan is running, details of the scan are dynamically updated to the user. These details include the status of the scan, the number of URLs found on the web application, the number of vulnerabilities found and details of the vulnerabilities found. After a scan is complete, a detailed PDF report is emailed to the user. The report includes descriptions of the vulnerabilities found, recommendations and details of where and how each vulnerability was exploited. It is also implemented with WAF bypass algorithm which bypass the WAF which is responsible to block scanner from scanning web sites. We can also modify and implement the new attack detection algorithm which can detect latest Zero days and other Web vulnerabilities.",
+    tags:""
+  },
+  {
+    name:"",
+    imgSrc:"",
+    description:"We have addressed the solution of all the stakeholders in the process of handling the wheat stubble. Farmers are benefitted with added revenue of their waste which they burn because of no information about uses of the stubble. Industry is benefitted because of cheap price of fuel they can get via this software. Farmers can also get information about industries in the area, company requiring their stubble, Price the company will pay. Government will also benefitted with this as they can easily acquire information about stubble burning in their state with the exact location of the burning",
+    tags:""
+  },
+  {
+    name:"",
+    imgSrc:"",
+    description:"Web and Mobile App for aggregating data from TSPs and for finding out those Aadhar Numbers(Unique IDs) who are not following the 9 connections rule per Aadhar Card.",
+    tags:""
+  },
+  {
+    name:"",
+    imgSrc:"",
+    description:"The Idea is focusing on putting all the govt. women welfare schemes under one umbrella. In our web application the govt. officials, as well as the user, has to register themselves first. There are various features like legal assistant used for helping the user to understand the scheme, various opportunities launched by Govt. for women, complaint lodge for firing any complaint about anything which will be taken into consideration and map service for locating various district office, NGOs, CBOs etc. The govt. officials have the access to upload any new scheme or they can just mail the admin about the scheme so he can upload it on the website. For greater benefit of the user, we will also present a mobile app with a notification alert, if any new scheme or opportunity is uploaded. The GPS service in the mobile will help the user to track the NGOs and CBOs for their specific purposes.", 
+    tags:""
+  },
+  {
+    name:"",
+    imgSrc:"",
+    description:"Our idea is to give a better platform i.e. an APP and WEBSITE with govt. schemes ,facilities and job opportunities for the women of INDIA. Our basic APP linked with the website such that common women with basic knowledge of computer and android can operate it. Our APP promotes the women skill enhancement and awareness by providing interview tips, bank transaction basics ,etc. so as to make them independent. Our App and Website contains fully verified details which gets updated frequently. The App and Website contain various government jobs information available for women and one can apply for those jobs through website itself. ",
+    tags:""
+  },
 ];
 export default projectList;
 
