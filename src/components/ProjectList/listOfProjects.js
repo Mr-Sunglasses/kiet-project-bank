@@ -114,9 +114,72 @@ const projectList = [
       name: "Recommendation System for Future Skills" ,
       imageSrc: "https://mma.prnewswire.com/media/1042546/Computer_Magazine_Cover.jpg?p=publish&w=950",
       description: "Due to the changing technology and its requirement for getting employed in India and abroad, there has to improvements suggested by experts for predicting the Prediction of Admission & Jobs in Engineering & Technology /Management/Pharmacy with respect to his/her strength, age, location and similar important factors.",
+      
       tags: ["Intermediate"]
     },
-   {
+    {
+      name: "Crop selling application for Farmers" ,
+      imageSrc: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.alamy.com%2Fsmart-farming-digital-technology-agriculture-app-at-farm-image364825539.html&psig=AOvVaw2fk2sF6Vaf94e9kBQ54bja&ust=1674512018847000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCKit9MGZ3PwCFQAAAAAdAAAAABAE",
+      description: "Portal for Farmers to sell the produce at a better rate",
+      tags: ["Intermediate"]
+    },
+    
+    {
+      name: "Auto Climate Monitoring System" ,
+      imageSrc: "https://www.shutterstock.com/image-vector/environmental-tax-monitoring-safe-storage-600w-2027199821.jpg",
+      description: "Auto Climate Monitoring System",
+      tags: ["Intermediate"]
+    },
+      
+    {
+      name: "Agriculture products with Tech intervention" ,
+      imageSrc: "https://www.shutterstock.com/image-photo/farmer-corn-field-using-digital-600w-2025078848.jpg",
+      description: "Lack of technological intervention in value addition of agriculture products produced by SHGs /FPGs",
+      tags: ["Intermediate"]
+    },
+    
+    {
+      name: "ALivestock Ownership Database" ,
+      imageSrc: "https://www.predictiveanalyticstoday.com/wp-content/uploads/2018/11/Top-Livestock-Management-Software.png",
+      description: "Livestock Ownership Database",
+      tags: ["Intermediate"]
+    },
+    
+    {
+      name: "Food processing" ,
+      imageSrc: "https://fmtmagazine.in/wp-content/uploads/2021/03/Food-Processing-Machinery.jpg",
+      description: "Food processing",
+      tags: ["Intermediate"]
+    },
+    
+    {
+      name: "Process Modeling" ,
+      imageSrc: "https://media.istockphoto.com/id/1304015369/photo/renewable-energies-concept-collage.jpg?b=1&s=170667a&w=0&k=20&c=PFLoxE0fgqwIJuzV8STgCWlu3GNGI5OGjYxOLOHFCgo=",
+      description: "Process Modeling",
+      tags: ["Intermediate"]
+    },
+  
+     {
+      name: "Design of alarms management and analytics" ,
+      imageSrc: "https://www.isa.org/getmedia/0c6b8817-72a8-4b63-9d06-c8d217ce9153/MA-2018-process-auto-storypg-1.jpg?width=400&height=400&ext=.jpg",
+      description: "Design of alarms management and analytics",
+      tags: ["Intermediate"]
+    },
+  
+    {
+      name: "Renewable Energy forecasting, for an integrated smart grid" ,
+      imgSrc: "https://media.springernature.com/lw685/springer-static/image/art%3A10.1007%2Fs11356-022-19084-3/MediaObjects/11356_2022_19084_Figa_HTML.png",
+      description: "Renewable Energy forecasting, for an integrated smart grid",
+      tags: ["Intermediate"]
+    },
+  
+    {
+      name: "Virtual Assistant for Medical Device" ,
+      imageSrc: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-QmLwIsbjEUuDYhlgHBFkUvfh_h_oBKm4vWjy55M_nDR2SryIpMc9IcwzaBzlpdB6XjE&usqp=CAU",
+      description: "Virtual Assistant for Medical Device",
+      tags: ["Intermediate"]
+    },
+  {
       name: "Software toolset for storage browsing and permission based access to geospatial data using blockchain " ,
       imageSrc: "https://miro.medium.com/max/720/1*09cmT2U79wyqH9VgFNxFDw.webp" ,
       description: " Ever-growing geospatial data requires secure and scalable storage for archiving data. Block chain-based technologies can offer strong byzantine fault tolerance and distributed data storage and access. However currently there are no mature options for storing and organizing large geospatial datasets on a distributed blockchain" ,
@@ -194,8 +257,7 @@ const projectList = [
       description: "Development of a deep Convolutional Neural Network (CNN) for Tropical Cyclone intensity estimation using half-hourly INSAT-3D IR Images and development of a web application for visualization of the imagery. INSAT3D/3DR observations are available at every 15-minute interval and these observations are very useful in understanding the instantaneous structural changes during evolution, intensification, and landfall of Tropical Cyclones. Datasets of Cyclones captured by INSAT-3D over the Indian Oceans are available since 2014. These datasets can be used for training and testing of the Model. Traditional methods for Intensity estimation require accurate center determination for intensity estimation. Development of CNN based model for intensity estimation will be very useful during the initial stage of cyclone formation when determination of accurate center becomes difficul" ,
       tags: ["AI","CNN"] 
    },
-    
-    
+  
 ];
 export default projectList;
 
