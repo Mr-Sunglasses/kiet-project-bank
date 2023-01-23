@@ -347,6 +347,36 @@ const projectList = [
     description:"Our idea is to give a better platform i.e. an APP and WEBSITE with govt. schemes ,facilities and job opportunities for the women of INDIA. Our basic APP linked with the website such that common women with basic knowledge of computer and android can operate it. Our APP promotes the women skill enhancement and awareness by providing interview tips, bank transaction basics ,etc. so as to make them independent. Our App and Website contains fully verified details which gets updated frequently. The App and Website contain various government jobs information available for women and one can apply for those jobs through website itself. ",
     tags:["Web development","App Development"]
   },
+  {
+  name: "Development of easy operating systems for persons with locomotor disability." ,
+  imageSrc: "https://smartone.ro/wp-content/uploads/2019/01/linux_distros.png" ,
+  description: "Persons with disabilities continue to face barriers that prevent them from enjoying their full civil, political, economic, social, cultural and developmental rights. Mainstreaming and universal access for persons with disabilities are the ultimate goals of the disability movement. The solution is the removal of all cultural, physical, social and other barriers that prevent persons with disabilities from equally accessing opportunities and participating fully in all aspects of life" ,
+  tags: ["Linux"] 
+},
+{
+  name: "Big Data Searching. " ,
+  imageSrc: "https://smartone.ro/wp-content/uploads/2019/01/linux_distros.png" ,
+  description: " A Unified from of database software that can search text (numeric, alphanumeric, alphabetic) or word within any from of data/file such as jpeg, png, pdf, word, excel, SQL and other formats/proforma which also includes interconnectivity with predefined key word within our database." ,
+  tags: ["Big Data"] 
+},
+{
+  name: "Water harvesting " ,
+  imageSrc: "https://smartone.ro/wp-content/uploads/2019/01/linux_distros.png" ,
+  description: " Recharging ground water level has always been a challenge. Rain water harvesting has a peak during monsoon and most of the time, in most of the areas it’s not so effective. Kitchen waste water has comparatively less impurities and contaminations and if harvested separately, can lead to a more sustainable technique to recharge ground water levels. Societies and big houses can be required to separate kitchen and toilet waste water. With selection of proper bio-reactors, algae, biochemicals, some useful by-products can also be made like some useful gases, fuel etc" ,
+  tags: ["Clean and Green technology"] 
+},
+{
+  name: "Use of technology in overcoming language barriers." ,
+  imageSrc: "https://smartone.ro/wp-content/uploads/2019/01/linux_distros.png" ,
+  description: "Today is your first day in a new role at a multinational organization. Your team is dispersed across the globe, and many of your co-workers don’t speak your native language. After making the proper introductions, your supervisor asks you to complete an online training course — which also isn’t in your native language. You manage to fumble your way through the course but, since you don’t understand the content, finish it feeling more confused than when you started. While this scenario may seem extreme, it’s a reality for the many employees around the world who must attempt to learn in a non-native language." ,
+  tags: ["Education"] 
+},
+{
+  name: "Jelly Bots - develop a device/solution to save he life of prople drowning at beaches in tourist destination" ,
+  imageSrc: "https://smartone.ro/wp-content/uploads/2019/01/linux_distros.png" ,
+  description: " Loss of lives due to drowning is being reported at popular Sea shores/beaches which need to be curtailed through the application of jelly bots. On alerting by distress visuals, jelly bots will swam/travel to the zone and target will get entrapped by soft tentacles to bring to the safety following the programmed path." ,
+  tags: ["AI"] 
+}
 ];
 export default projectList;
 
